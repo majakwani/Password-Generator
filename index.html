@@ -6,11 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap" rel="stylesheet">
     <script src="index.js" defer></script>
 </head>
-<body class="flex">
+<body>
     
-    <div class="container"></div>
+    <div class="container">
+        <div class="title">
+            <p class="title-para">Generate a <span>random passowrd</span></p>
+        </div>
+        <p class="description">Never use an insecure password again.</p>
+        <button class="action-button" onclick="displayPasswords()">Generate passwords</button>
+        <div class="line"></div>
+        <div class="passwords">
+            <button class="password one"></button>
+            <button class="password two"></button>
+        </div>
+    </div>
 
 </body>
 </html>
